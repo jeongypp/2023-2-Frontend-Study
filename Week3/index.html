@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🎨 TODO</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+        <h1>WTD</h1>
+            <form id="todo-form">
+                <input id="input-text" type="text" placeholder="Write your TODO" required/>
+                <button id="input-button" onclick="handleToDoSubmit()">+</button>
+            </form>
+            <form>
+            <section class="todo-section">
+                <h2>🗓️ To Do<span id="todo-count"></span></h2>
+                <ul id="todo-list">
+                </ul>
+            </section>
+            <section class="done-section">
+                <h2>👌 Done<span id="done-count"></span></h2>
+                <ul id="done-list">
+                </ul>
+            </section>
+            </form>
+        </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
